@@ -36,8 +36,8 @@ to this section's matching END comment to see page-specific styles.
 
 /* Import fonts */
 @font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+  font-family: Ubuntu;
+  src: url("https://fonts.googleapis.com/css?family=Ubuntu:400,700")
     format("opentype");
 }
 @font-face {
@@ -111,7 +111,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: HK Grotesk;
+  font-family: Ubuntu;
   background-color: var(--color-bg);
 }
 
