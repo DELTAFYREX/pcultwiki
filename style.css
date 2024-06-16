@@ -93,10 +93,7 @@ head {
 }
 
 .inbanner {
-  color: #000000;
-  font-style: normal;
-  font-weight: bold;
-  position: relative;
+   vertical-align: middle;
 }
 
 .glitch {
