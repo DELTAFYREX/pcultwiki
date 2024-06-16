@@ -61,6 +61,7 @@
 .w3-sidebar {
   height:100%;
   width:200px;
+  left: -150px;
   background-color:#ffffff;
   position:fixed!important;
   z-index:1;
