@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="/style.css" />
     <div class="banner">
         <div class="w3-sidebar w3-bar-block" style="z-index:5" id="mySidebar">
-            <button class="w3-bar-item w3-button w3-xxlarge" onclick="myFunction()">Close &times;</button>
+            <button class="w3-bar-item w3-button w3-xxlarge">Close &times;</button>
             <a href="#" class="w3-bar-item w3-button">Link 1</a>
             <a href="#" class="w3-bar-item w3-button">Link 2</a>
             <a href="#" class="w3-bar-item w3-button">Link 3</a>
@@ -15,7 +15,7 @@
         $("#sidebarbutton").on('click', function() {
             clicked2 = !clicked2;
             if (clicked2) {
-                $("#mySidebar").css({ "right": "400px" });
+                $("#mySidebar").css({ "right": "-400px" });
                 $("#mySidebar").css({ "position": "absolute" });
                 $("#mySidebar").css({ "z-index": "-6" });
             } else {
@@ -25,7 +25,7 @@
             }
         });
 </script>
-        <button class="inbanner w3-button w3-white w3-xxlarge" id="sidebarbutton" onclick="myFunction()">&#9776;</button>
+        <button class="inbanner w3-button w3-white w3-xxlarge" id="sidebarbutton">&#9776;</button>
         <h1 class="inbanner">[P]iss cult Wiki</h1>
     </div>
     <head>
