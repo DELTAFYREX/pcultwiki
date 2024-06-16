@@ -20,7 +20,7 @@ body {
   font-family: Ubuntu;
   margin: 0;
   background-color: var(--backgroundColor);
-  background-image: url('https://cdn.glitch.global/7cfa229b-8754-4e6b-b2b6-944559e538c4/2024_03_02_0y1_Kleki.png?v=1713127946569');
+  background-image: url('https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/672bbac7844749a1de3a774fc1656fe7.webp?v=1718570889783');
 }
 
 .wrapper {
@@ -87,13 +87,17 @@ head {
 .banner {
   background-color: #F5708F;
   position: fixed;
-  height: 50px;
+  height: 55px;
   width: 100%;
   z-index: 4;
 }
 
 .inbanner {
-   vertical-align: middle;
+  position: absolute;
+  left: 20px;
+  top: -8px;
+  color: #000000;
+  
 }
 
 .glitch {
