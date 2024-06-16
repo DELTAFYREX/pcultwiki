@@ -107,7 +107,7 @@
 
 .w3-animate-left{
   position:relative;
-  animation:animateleft 0.4s
+  animation:animateleft 0.4s linear both
 }
 
 .w3-animate-exit-left{

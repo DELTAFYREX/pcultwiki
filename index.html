@@ -2,6 +2,7 @@
 <html lang="en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
     <link rel="stylesheet" href="/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <div class="banner">
         <div class="w3-sidebar w3-bar-block swap" style="z-index:5" id="mySidebar">
             <button class="w3-bar-item w3-button w3-xxlarge">Close &times;</button>
@@ -15,13 +16,9 @@
         $(".swap").on('click', function() {
             clicked2 = !clicked2;
             if (clicked2) {
-                $("#mySidebar").css({ "left": "-400px" });
-                $("#mySidebar").css({ "position": "absolute" });
-                $("#mySidebar").css({ "z-index": "-6" });
+                $("#mySidebar").css({ "left": "0px" });
             } else {
-                $("#mySidebar").css({ "left": "0" });
-                $("#mySidebar").css({ "position": "relative" });
-                $("#mySidebar").css({ "z-index": "0" });
+                $("#mySidebar").css({ "left": "-400px" });
             }
         });
 </script>
