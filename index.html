@@ -11,16 +11,21 @@
         </div>
 
 <script>
-function myFunction() {
-    var divPosition = $("#mySidebar").offset();
-    if(divPosition.left < 0 ) {
-        $("#mySidebar").animate({"left": 0},1000);
-    } else {
-        $("#mySidebar").animate({"left": -150},1000);
-    }
-}
+        var clicked2 = false;
+        $("#sidebarbutton").on('click', function() {
+            clicked2 = !clicked2;
+            if (clicked2) {
+                $("#mySidebar").css({ "right": "400px" });
+                $("#mySidebar").css({ "position": "absolute" });
+                $("#mySidebar").css({ "z-index": "-6" });
+            } else {
+                $("#mySidebar").css({ "right": "0px" });
+                $("#mySidebar").css({ "position": "relative" });
+                $("#mySidebar").css({ "z-index": "0" });
+            }
+        });
 </script>
-        <button class="inbanner w3-button w3-white w3-xxlarge" onclick="myFunction()">&#9776;</button>
+        <button class="inbanner w3-button w3-white w3-xxlarge" id="sidebarbutton" onclick="myFunction()">&#9776;</button>
         <h1 class="inbanner">[P]iss cult Wiki</h1>
     </div>
     <head>
