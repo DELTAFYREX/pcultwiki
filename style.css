@@ -1,7 +1,7 @@
 :root {
     font-family: Ubuntu;
     font-size: 14px;
-    --backgroundColor: #DDE6EB;
+    --backgroundColor: #202020;
 }
 
 * {
@@ -175,7 +175,6 @@ body {
   margin: 0;
   position: relative;
   background-color: var(--backgroundColor);
-  background-image: url('https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/672bbac7844749a1de3a774fc1656fe7.webp?v=1718570889783');
 }
 
 .wrapper {
