@@ -385,5 +385,10 @@ a.link {
 .navigatorarraybox {
   height: 90px;
   width: 80px;
-  border: 1px solid #000000;
+  border: 3px solid #000000;
+}
+.fitimage {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
