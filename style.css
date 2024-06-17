@@ -173,6 +173,8 @@ font-size:18px!important
 body {
   font-family: Ubuntu;
   margin: 0;
+   
+  top: 55px;
   background-color: var(--backgroundColor);
   background-image: url('https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/672bbac7844749a1de3a774fc1656fe7.webp?v=1718570889783');
 }
