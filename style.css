@@ -1,7 +1,7 @@
 :root {
     font-family: Ubuntu;
     font-size: 14px;
-    --backgroundColor: #DDE6EB;
+    --backgroundColor: #202020;
 }
 
 * {
@@ -173,10 +173,8 @@ font-size:18px!important
 body {
   font-family: Ubuntu;
   margin: 0;
-   
-  top: 55px;
+  position: relative;
   background-color: var(--backgroundColor);
-  background-image: url('https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/672bbac7844749a1de3a774fc1656fe7.webp?v=1718570889783');
 }
 
 .wrapper {
@@ -189,7 +187,9 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  left: 35px;
+  position: relative;
+  align-items: left;
   justify-content: center;
 }
 
@@ -260,8 +260,79 @@ head {
 
 .glitch {
   color: #24100f;
-  animation: animate 12ms ease-in-out infinite; 
+  animation: glitch-out 12ms ease-in-out infinite; 
   text-shadow: 0px -5px #ec2225, 0px 5px #ab110c, -5px 0px #ec2225, 5px 0px #fa0a02;
   filter: drop-shadow(26px 26px 30px black);
-  display: none;
+}
+
+title {
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+.shadow {
+  filter: drop-shadow(26px 26px 30px black);
+  text-shadow: 4px -1px black;
+}
+
+a.link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@keyframes glitch-out {
+  0%, 100% {
+    top: -7px;
+    left: 0px;
+    opacity: 1;
+  }
+  10% {
+    top: 0px;
+    left: -10px;
+    opacity: 0.7;
+  }
+  20% {
+    top: 7px;
+    left: 0px;
+    opacity: 0.2;
+  }
+  30% {
+    top: 0px;
+    left: 10px;
+    opacity: 0.3;
+  }
+  40% {
+    top: -4px;
+    left: -10px;
+    opacity: 0.3;
+  }
+  50% {
+    top: -7px;
+    left: -8px;
+    opacity: 0.4;
+  }
+  60% {
+    top: 8px;
+    left: 15px;
+    opacity: 0.2;
+  }
+  70% {
+    top: 1px;
+    left: 8px;
+    opacity: 1;
+  }
+  80% {
+    top: -3px;
+    left: 4px;
+    opacity: 0.9;
+  }
+  90% {
+    top: -15;
+    left: -10;
+    opacity: 0.6;
+  }
 }
