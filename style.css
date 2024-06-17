@@ -215,6 +215,7 @@ body {
   border-radius: 25px;
   background: #93d9f5;
   padding: 20px;
+  width: 60%;
 }
 
 .title {
@@ -359,4 +360,8 @@ a.link {
     left: -10;
     opacity: 0.6;
   }
+}
+
+#bannermenu {
+  height: 63px
 }
