@@ -4,8 +4,8 @@
     <link rel="stylesheet" href="/style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <div class="banner">
-        <div class="w3-sidebar w3-bar-block swap" style="z-index:5" id="mySidebar">
-            <button class="w3-bar-item w3-button w3-xxlarge">Close &times;</button>
+        <div class="w3-sidebar w3-bar-block" style="z-index:5" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-xxlarge swap">Close &times;</button>
             <a href="#" class="w3-bar-item w3-button">Link 1</a>
             <a href="#" class="w3-bar-item w3-button">Link 2</a>
             <a href="#" class="w3-bar-item w3-button">Link 3</a>
@@ -16,9 +16,9 @@
         $(".swap").on('click', function() {
             clicked2 = !clicked2;
             if (clicked2) {
-                $("#mySidebar").css({ "right": "0px" });
+                $("#mySidebar").css({ "left": "400px" });
             } else {
-                $("#mySidebar").css({ "right": "-400px" });
+                $("#mySidebar").css({ "left": "0px" });
             }
         });
 </script>
