@@ -222,6 +222,14 @@ body {
   background: #93d9f5;
 }
 
+.pisscolor {
+  background: #5aa87c;
+}
+
+.whitecolor {
+  background: #FFFFFF;
+}
+
 .title {
   color: #2800FF;
   font-family: Ubuntu;
