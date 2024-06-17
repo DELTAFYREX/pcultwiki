@@ -365,3 +365,8 @@ a.link {
 #bannermenu {
   height: 63px
 }
+
+.invisborder {
+  border-top: 16px solid rgba(255, 0, 0, 0);
+  border-radius: 5px;
+}
