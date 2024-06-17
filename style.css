@@ -173,8 +173,7 @@ font-size:18px!important
 body {
   font-family: Ubuntu;
   margin: 0;
-   
-  top: 55px;
+  position: relative;
   background-color: var(--backgroundColor);
   background-image: url('https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/672bbac7844749a1de3a774fc1656fe7.webp?v=1718570889783');
 }
@@ -264,4 +263,13 @@ head {
   text-shadow: 0px -5px #ec2225, 0px 5px #ab110c, -5px 0px #ec2225, 5px 0px #fa0a02;
   filter: drop-shadow(26px 26px 30px black);
   display: none;
+}
+
+title {
+  text-align: center;
+}
+
+.white {
+  color: white;
+  filter: drop-shadow(26px 26px 30px black);
 }
