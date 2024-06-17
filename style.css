@@ -1,7 +1,7 @@
 :root {
     font-family: Ubuntu;
     font-size: 14px;
-    --backgroundColor: #202020;
+    --backgroundColor: #DDE6EB;
 }
 
 * {
@@ -60,21 +60,11 @@
 
 .w3-sidebar {
   height:100%;
-  width: 200px;
+  width:200px;
   background-color:#ffffff;
   position:fixed!important;
-  z-index:0;
-  overflow:auto;
-  position: relative;
-  display: inline-block;
-}
-
-#mySidebar {
-  -webkit-transition: right 1000ms;
-  -moz-transition: right 1000ms;
-  -o-transition: right 1000ms;
-  transition: right 1000ms;
-  transition-timing-function: cubic-bezier(0.175, 0.585, 0.32, 1)
+  z-index:1;
+  overflow:auto
 }
 
 .w3-bar {
@@ -97,84 +87,18 @@
   float:none;
   outline:0;
 }
-
-.w3-bar-block.w3-center .w3-bar-item {
-  text-align:center
-}
-
-.w3-block {
-  display:block;
-  width:100%
-}
-
-.w3-animate-left{
-  position:relative;
-  animation:animateleft 0.4s linear both
-}
-
-.w3-animate-exit-left{
-  position:relative;
-  animation:animateexitleft 0.4s
-}
-
-@keyframes animateleft{
-  from{left:-300px;opacity:0} to{left:0;opacity:1}
-}
-
-@keyframes animateexitleft{
-  from{left:0;opacity:1} to{left:-300px;opacity:0}
-}
-
-.w3-animate-input{
-  transition:width 0.4s ease-in-out
-}
-
-.w3-animate-input:focus{
-  width:100%!important
-}
-
-.w3-tiny{
-  font-size:10px!important
-}
-
-.w3-small{
-  font-size:12px!important
-}
-
-.w3-medium{
-  font-size:15px!important
-}
-
-.w3-large {
-font-size:18px!important
-}
-
-.w3-xlarge{
-  font-size:24px!important
-}
-
-.w3-xxlarge{
-  font-size:36px!important
-}
-
-.w3-xxxlarge{
-  font-size:48px!important
-}
-
-.w3-jumbo{
-  font-size:64px!important
-}
-
-.w3-button:hover{
-  color:#000000!important;
-  background-color:#cccccc!important
-}
+.w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-input{transition:width 0.4s ease-in-out}.w3-animate-input:focus{width:100%!important}
+.w3-tiny{font-size:10px!important}.w3-small{font-size:12px!important}.w3-medium{font-size:15px!important}.w3-large{font-size:18px!important}
+.w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
 
 body {
   font-family: Ubuntu;
   margin: 0;
-  position: relative;
   background-color: var(--backgroundColor);
+  background-image: url('https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/672bbac7844749a1de3a774fc1656fe7.webp?v=1718570889783');
 }
 
 .wrapper {
@@ -187,35 +111,8 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  left: 35px;
-  position: relative;
-  align-items: left;
+  align-items: center;
   justify-content: center;
-}
-
-.navcontent {
-  display: flex;
-  flex-direction: column;
-  left: 35px;
-  position: relative;
-  align-items: left;
-  justify-content: center;
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 250px;
-  height: 250px;
-}
-
-.boxcontent {
-  display: flex;
-  position: relative;
-  align-items: left;
-  justify-content: center;
-  border-radius: 25px;
-  background: #93d9f5;
-  padding: 20px;
-  width: 60%;
 }
 
 .title {
@@ -275,93 +172,16 @@ head {
 
 .inbanner {
   position: absolute;
+  left: 20px;
   top: -8px;
   color: #000000;
-}
-
-.banner h1 {
-  left: 80px;
+  
 }
 
 .glitch {
   color: #24100f;
-  animation: glitch-out 12ms ease-in-out infinite; 
+  animation: animate 12ms ease-in-out infinite; 
   text-shadow: 0px -5px #ec2225, 0px 5px #ab110c, -5px 0px #ec2225, 5px 0px #fa0a02;
   filter: drop-shadow(26px 26px 30px black);
-}
-
-title {
-  text-align: center;
-}
-
-.white {
-  color: white;
-}
-
-.shadow {
-  filter: drop-shadow(26px 26px 30px black);
-  text-shadow: 4px -1px black;
-}
-
-a.link {
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-@keyframes glitch-out {
-  0%, 100% {
-    top: -7px;
-    left: 0px;
-    opacity: 1;
-  }
-  10% {
-    top: 0px;
-    left: -10px;
-    opacity: 0.7;
-  }
-  20% {
-    top: 7px;
-    left: 0px;
-    opacity: 0.2;
-  }
-  30% {
-    top: 0px;
-    left: 10px;
-    opacity: 0.3;
-  }
-  40% {
-    top: -4px;
-    left: -10px;
-    opacity: 0.3;
-  }
-  50% {
-    top: -7px;
-    left: -8px;
-    opacity: 0.4;
-  }
-  60% {
-    top: 8px;
-    left: 15px;
-    opacity: 0.2;
-  }
-  70% {
-    top: 1px;
-    left: 8px;
-    opacity: 1;
-  }
-  80% {
-    top: -3px;
-    left: 4px;
-    opacity: 0.9;
-  }
-  90% {
-    top: -15;
-    left: -10;
-    opacity: 0.6;
-  }
-}
-
-#bannermenu {
-  height: 63px
+  display: none;
 }
