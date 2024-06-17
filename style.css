@@ -260,10 +260,9 @@ head {
 
 .glitch {
   color: #24100f;
-  animation: animate 12ms ease-in-out infinite; 
+  animation: glitch-out 12ms ease-in-out infinite; 
   text-shadow: 0px -5px #ec2225, 0px 5px #ab110c, -5px 0px #ec2225, 5px 0px #fa0a02;
   filter: drop-shadow(26px 26px 30px black);
-  display: none;
 }
 
 title {
@@ -283,4 +282,57 @@ a.link {
     color: black;
     cursor: pointer;
     text-decoration: none;
+}
+
+@keyframes glitch-out {
+  0%, 100% {
+    top: -7px;
+    left: 0px;
+    opacity: 1;
+  }
+  10% {
+    top: 0px;
+    left: -10px;
+    opacity: 0.7;
+  }
+  20% {
+    top: 7px;
+    left: 0px;
+    opacity: 0.2;
+  }
+  30% {
+    top: 0px;
+    left: 10px;
+    opacity: 0.3;
+  }
+  40% {
+    top: -4px;
+    left: -10px;
+    opacity: 0.3;
+  }
+  50% {
+    top: -7px;
+    left: -8px;
+    opacity: 0.4;
+  }
+  60% {
+    top: 8px;
+    left: 15px;
+    opacity: 0.2;
+  }
+  70% {
+    top: 1px;
+    left: 8px;
+    opacity: 1;
+  }
+  80% {
+    top: -3px;
+    left: 4px;
+    opacity: 0.9;
+  }
+  90% {
+    top: -15;
+    left: -10;
+    opacity: 0.6;
+  }
 }
