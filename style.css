@@ -279,3 +279,9 @@ title {
   filter: drop-shadow(26px 26px 30px black);
   text-shadow: 4px -1px black;
 }
+
+a.link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}

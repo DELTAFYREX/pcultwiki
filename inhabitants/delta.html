@@ -1,61 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta name="description" content="Nero.io is an unofficial spinoff of arras.io, here we have more tanks, (hopefully) frequent updates, stupid humor and a fun place, so come and join the fun! (This is an extremely dumb fucking game)">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="DeltaFyrex">
-    <meta name="keywords" content="arras.io, arras, game, arras mayhem, arras moe, arrasio, neroio, nero.io, nero, io, .io, arras spinoff, woomyarras, woomyarrasio, woomyarras.io, woomy arras">
-    <meta property="og:site_name" content="Piss Cult Wiki">  
-    <meta property="og:image" content="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789">
-    <meta property="og:image:width" content="54">
-    <meta property="og:image:height" content="54">
-    <meta property="og:type" content="wiki">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Nero.io is an unofficial spinoff of arras.io, here we have more tanks, (hopefully) frequent updates, stupid humor and a fun place, so come and join the fun! (This is an extremely dumb fucking game)"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="DeltaFyrex" />
+    <meta
+      name="keywords"
+      content="arras.io, arras, game, arras mayhem, arras moe, arrasio, neroio, nero.io, nero, io, .io, arras spinoff, woomyarras, woomyarrasio, woomyarras.io, woomy arras"
+    />
+    <meta property="og:site_name" content="Piss Cult Wiki" />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789"
+    />
+    <meta property="og:image:width" content="54" />
+    <meta property="og:image:height" content="54" />
+    <meta property="og:type" content="wiki" />
     <title>[P]iss Cult Wiki</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu:400,700"
+    />
     <link rel="stylesheet" href="/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <!-- Favicons -->
-    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./favicon.ico" />
     <!--<link rel="manifest" href="/lib/json/manifest.json">-->
-    <meta name="msapplication-TileColor" content="#7d7acf">
-    <link rel="shortcut icon" href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789" type="image/x-icon">
+    <meta name="msapplication-TileColor" content="#7d7acf" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789"
+      type="image/x-icon"
+    />
     <!-- Apple Web App stuff -->
-    <link rel="apple-touch-icon" href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789">
-    <link rel="apple-touch-startup-image" media="(device-width: 768px)" href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/d247903fc5a7db66031aaa6de08e2c34.webp?v=1718586908431">
-    <meta name="apple-mobile-web-app-capable" content="no">
-    <link href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789" media="(device-width: 375px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px)"
+      href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/d247903fc5a7db66031aaa6de08e2c34.webp?v=1718586908431"
+    />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <link
+      href="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789"
+      media="(device-width: 375px) and (-webkit-device-pixel-ratio: 2)"
+      rel="apple-touch-startup-image"
+    />
     <!-- Windows App Pin -->
-    <meta name="theme-color" content="#26284a">
-    <meta name="msapplication-TileImage" content="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789">
+    <meta name="theme-color" content="#26284a" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://cdn.glitch.global/5742c173-6d5b-45fa-af15-8afe90acbbb1/bf15f8f2beb0b185381c86b820a08b7f.webp?v=1718586906789"
+    />
     <div class="banner">
-        <div class="w3-sidebar w3-bar-block" style="display: none;z-index:5" onclick="w3_close()" id="mySidebar">
-            <button class="w3-bar-item w3-button w3-xxlarge swap">Close &times;</button>
-            <a href="https://piss-cult-wiki.glitch.me" class="w3-bar-item w3-button">Home</a>
-            <a href="#" class="w3-bar-item w3-button">Link 2</a>
-            <a href="#" class="w3-bar-item w3-button">Link 3</a>
-        </div>
+      <div
+        class="w3-sidebar w3-bar-block"
+        style="display: none; z-index: 5"
+        onclick="w3_close()"
+        id="mySidebar"
+      >
+        <button class="w3-bar-item w3-button w3-xxlarge swap">
+          Close &times;
+        </button>
+        <a href="https://piss-cult-wiki.glitch.me" class="w3-bar-item w3-button"
+          >Home</a
+        >
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      </div>
 
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
+      <script>
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("myOverlay").style.display = "block";
+        }
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-        <button class="inbanner w3-button white w3-xxlarge" onclick="w3_open()">&#9776;</button>
-        <h1 class="inbanner">[P]iss cult Wiki</h1>
-    </div>asd
-    </head><h3>asd</h3>
-    <body>
-            <div class="content">
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("myOverlay").style.display = "none";
+        }
+      </script>
+      <button class="inbanner w3-button white w3-xxlarge" onclick="w3_open()">
+        &#9776;
+      </button>
+      <h1 class="inbanner">
+        <a class="link" href="https://piss-cult-wiki.glitch.me"
+          >[P]iss cult Wiki</a
+        >
+      </h1>
+    </div>
+    asd
+  </head>
+  <h3>asd</h3>
+  <body>
+    <div class="content">
       <h1 class="white shadow">Title</h1>
-              description
-          </div>
-    </body>
+      description
+    </div>
+  </body>
 </html>
