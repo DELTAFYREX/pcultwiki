@@ -193,6 +193,31 @@ body {
   justify-content: center;
 }
 
+.navcontent {
+  display: flex;
+  flex-direction: column;
+  left: 35px;
+  position: relative;
+  align-items: left;
+  justify-content: center;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.boxcontent {
+  display: flex;
+  position: relative;
+  align-items: left;
+  justify-content: center;
+  border-radius: 25px;
+  background: #93d9f5;
+  padding: 20px;
+  width: 60%;
+}
+
 .title {
   color: #2800FF;
   font-family: Ubuntu;
@@ -335,4 +360,8 @@ a.link {
     left: -10;
     opacity: 0.6;
   }
+}
+
+#bannermenu {
+  height: 63px
 }
