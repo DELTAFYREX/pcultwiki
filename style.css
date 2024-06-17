@@ -211,7 +211,7 @@ body {
   display: flex;
   position: relative;
   align-items: left;
-  justify-content: center;
+  justify-content: left;
   border-radius: 25px;
   background: #93d9f5;
   padding: 20px;
