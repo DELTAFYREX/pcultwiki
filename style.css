@@ -218,6 +218,15 @@ body {
   width: 60%;
 }
 
+.defaultcontent {
+  position: absolute;
+  justify-content: left;
+  border-radius: 25px;
+  background: #93d9f5;
+  padding: 20px;
+  width: 60%;
+}
+
 .deltacolor {
   background: #93d9f5;
 }
