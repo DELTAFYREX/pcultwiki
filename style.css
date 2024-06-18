@@ -302,6 +302,12 @@ head {
   filter: drop-shadow(26px 26px 30px black);
 }
 
+.slightglitch {
+  color: #24100f;
+  animation: glitch-out 100ms ease-in-out infinite; 
+  text-shadow: 3px 0px #fa0a02;
+}
+
 title {
   text-align: center;
 }
