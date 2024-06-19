@@ -238,6 +238,10 @@ body {
   background: #FFFFFF;
 }
 
+.golokcolor {
+  background: #f1c40f;
+}
+
 .title {
   color: #2800FF;
   font-family: Ubuntu;
