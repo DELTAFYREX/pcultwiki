@@ -404,7 +404,7 @@ a.link {
 .navbar {
   position: absolute;
   width: 100%;
-  bottom: -px;
+  bottom: 10%;
 }
 
 .pagethingy {
