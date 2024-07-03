@@ -217,14 +217,6 @@ body {
   width: 60%;
 }
 
-.defaultcontent {
-  position: absolute;
-  border-radius: 25px;
-  background: #93d9f5;
-  padding: 20px;
-  width: 400px;
-}
-
 .deltacolor {
   background: #93d9f5;
 }
@@ -410,13 +402,13 @@ a.link {
 
 .navbar {
   position: absolute;
-  padding-top: 400px;
+  padding-top: 200px;
   width: 100%;
 }
 
 .pagethingy {
     margin: auto;
-    width: 80%;
+    width: 90%;
     padding: 30px;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -426,16 +418,22 @@ a.link {
     background-color: #F2E083;
     box-sizing: border-box;
     overflow: hidden;
-    max-width: 1550px;
-    height: 1024px;
+    max-width: 1000px;
+    height: 87%;
 }
 
 .reviewbox {
     width: 20%;
     padding: 30px;
     float: right;
+    margin-right: -30px;
     width: auto;
     font-size: 15px;
     max-width: 380px;
     min-width: 100px;
+    background: #93d9f5;
+    height: 1000%;
+    border-radius: 15px 0px 0px 0px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
 }
