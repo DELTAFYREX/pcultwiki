@@ -208,7 +208,6 @@ body {
 }
 
 .boxcontent {
-  display: flex;
   position: relative;
   align-items: left;
   justify-content: left;
@@ -420,12 +419,16 @@ a.link {
     padding: 30px;
     margin-top: 40px;
     margin-bottom: 100px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    background-color: #FFFFFF;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background-color: #F2E083;
     box-sizing: border-box;
     overflow: hidden;
     max-width: 1550px;
-    height: auto;
+    height: 1024px;
+    margin-left: 35px;
+    position: relative;
+    align-items: left;
+    padding: 20px;
 }
