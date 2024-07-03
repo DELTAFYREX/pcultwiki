@@ -390,7 +390,7 @@ a.link {
 .cont {
   border: 4px solid #000000;
   border-radius: 5px;
-  border-width: 3px 0px 5x 8px; 
+  border-width: 5px 0px 5px 0px; 
   background: rgb(255, 255, 255, 0.5);
 }
 .fitimage {
@@ -402,9 +402,9 @@ a.link {
 }
 
 .navbar {
-  position: relative;
-  bottom: 89px;
+  position: absolute;
   width: 100%;
+  bottom: -px;
 }
 
 .pagethingy {
@@ -420,9 +420,9 @@ a.link {
     box-sizing: border-box;
     overflow: hidden;
     max-width: 2048px;
-    height: 87%;
     border: 5px solid #090909;
-    border-width: 3px 0px 0px 8px; 
+    border-width: 3px 1px 1px 8px; 
+    height: 90%;
 }
 
 .reviewbox {
@@ -437,7 +437,7 @@ a.link {
     background: #93d9f5;
     height: 1000%;
     border: 5px solid #090909;
-    border-width: 3px 0px 0px 8px; 
+    border-width: 3px 1px 1px 8px; 
     border-radius: 15px 0px;
     -moz-border-radius: 15px 0px;
 }
